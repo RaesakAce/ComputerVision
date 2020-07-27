@@ -1,10 +1,11 @@
 import cv2
 import sys
+import os
 import logging as log
 import datetime as dt
 from time import sleep
 
-cascPath = "haarcascade_frontalface_default.xml"
+cascPath = os.path.join('C:/Users/marco/AppData/Local/Programs/Python/Python38/Lib/site-packages/cv2/data',"haarcascade_frontalface_default.xml")
 faceCascade = cv2.CascadeClassifier(cascPath)
 log.basicConfig(filename='webcam.log',level=log.INFO)
 
