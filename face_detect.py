@@ -1,6 +1,6 @@
 import cv2 as cv
 
-image_path='./image/image.jpeg'
+image_path='698.jpg'
 
 # Read image from your local file system
 original_image = cv.imread(image_path)
